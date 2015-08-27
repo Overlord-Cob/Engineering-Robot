@@ -10,14 +10,12 @@
 
 task main()
 {
-	init();  //Currently unused
 
-	//while(true){
-		startTask(runMotors);
+	startTask(runMotors);
 
-		startTask(runClaw);
+	startTask(runClaw);
 
-		startTask(runArm);
-	//}
+	startTask(runArm);
+
 	while(true){}
 }

@@ -13,7 +13,6 @@
 #define BTN_ARM_UP Btn8U
 #define BTN_ARM_DOWN Btn8D
 
-#define BTN_CLAW_TOGGLE Btn6U  //Currently unused
 #define BTN_CLAW_OPEN Btn7U
 #define BTN_CLAW_CLOSE Btn7D
 
