@@ -11,11 +11,15 @@
 task main()
 {
 
+	// Start a new thread for the task runMotors
 	startTask(runMotors);
 
+	// Start a new thread for the task runClaw
 	startTask(runClaw);
 
+	// Start a new thread for the task runArm
 	startTask(runArm);
 
+	// This infinite loop prevents the program from terminating
 	while(true){}
 }
