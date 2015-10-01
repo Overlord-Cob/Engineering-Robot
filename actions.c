@@ -1,3 +1,5 @@
+/****The methods occur during the other threads, and do not opperate concurrently***/
+
 /*
  * updateClaw
  *

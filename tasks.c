@@ -1,3 +1,5 @@
+/****The tasks run independent threads that operate concurrently****/
+
 // This task repeatedly calls the moveMotors() method, found in actions.c
 task runMotors(){
 	while (true){
